@@ -84,7 +84,8 @@ Archivos implicados:
 3. routes/auth: passport/sessions
     - index.js
      
-4. routes/events/handlers: consulta a la bd para mostrar todos los eventos del user
+4. routes/events/handlers: insercción a la bdd y consulta a la bd para mostrar todos los eventos del user en myacount
+    - addRetiros.js
     - getCategories.js
 
 5. views: renders
