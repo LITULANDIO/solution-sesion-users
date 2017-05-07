@@ -78,7 +78,7 @@ Archivos implicados:
     - index.js
      
 4. routes/events/handlers: consulta a la bd para mostrar todos los eventos del user
-    -getCategories.js
+    - getCategories.js
 
 5. views: renders
     - layout
