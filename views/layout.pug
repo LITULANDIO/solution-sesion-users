@@ -1,0 +1,94 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+  title Ayurveda & Yoga
+  link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+  link(rel='stylesheet', href='/bower_components/hover/dist/css/bootsnipp.css')
+  link(rel='stylesheet', type='text/css', href='/css/style.css')
+  link(href='https://fonts.googleapis.com/css?family=Lobster+Two', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=News+Cycle', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Barrio', rel='stylesheet')
+  link(rel='icon', type='image/png', href='/img/only_logo.png')
+  link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet', integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN', crossorigin='anonymous')
+
+
+nav.navbar.navbar-default.navbar-fixed-top.header-mine
+  .container
+    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+      span.sr-only  Toggle navigation
+      span.icon-bar  
+      span.icon-bar  
+      span.icon-bar  
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-left.color-blue
+        li
+          a(href='mailto:litulandio@gmail.com')
+            i.glyphicon.glyphicon-envelope
+            |  info@encuentratucamino.com
+      ul.nav.navbar-nav.navbar-right.color-blue
+        li
+          a(href='javascript:agregar()')
+            i.glyphicon.glyphicon-heart-empty
+            |  Mis favoritos
+        li
+          if user
+            a(href='/logout')
+              i.glyphicon.glyphicon-log-out
+              |  Salir
+          else
+          a(href='/login')
+            i.glyphicon.glyphicon-log-in
+            |  loggin
+  nav.navbar.navbar-default
+    .container
+      a(href='/')
+        img.logo(src='/img/only_logo.png', width='140px', height='80px')
+        .welcome.text-center
+      .font-categories.logo.title-mine
+
+        h2.title-find "Encuentra tu camino"
+      ul.top-menu
+        li
+          a(href='about.html')
+          //- | Encuentra 
+          //- small
+          //-   i.glyphicon.glyphicon-menu-down
+        //- li
+        //-   a(href='about.html')  Conóncenos
+        //- li
+        //-   a(href='about.html')  Blog
+        li
+          a(href='/login')  Anúnciate gratis
+
+ 
+
+
+include includes/footer.pug
+  block content
+
+  footer.footer
+    p.copy
+    | Copyright ® 2017, 
+    a(href='https://www.linkedin.com/in/carles-far-pierres-390160139/?trk=nav_responsive_tab_profile_pic') Carles far - Front developer
+    
+  script(src="/bower_components/jquery/dist/jquery.min.js")
+  script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+  script(src='/js/carrusel.js')
+  script(src='/js/welcome.js')
+  script(src='/js/search.js')
+  script(src='/js/tcal.js')
+  script(src='/js/favorites.js')
+  script(src='/js/main.js')
+  script(src='/js/imageLoad.js')
+  script(src='/js/allMaps.js')
+  script(src='/js/insert-title.js')
+ 
+
+
+
+
+
+  
+
+
