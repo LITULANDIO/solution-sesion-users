@@ -111,5 +111,8 @@ Siguiendo los pasos de las imágenes....
 ## ADD EVENT
 ![5](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_5-addEvent.pug.png)
 
-## ERROR
+## ERROR SOLUCIONADO
 ![6](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/error.png)
+
+## ERROR ACTUAL (DUPLICATE KEY)
+![7](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/error2.png)
