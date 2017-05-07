@@ -88,20 +88,20 @@ Archivos implicados:
 
 Siguiendo los pasos de las imágenes....
 
-HOME
+## HOME
 ![1](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_1-home.png)
 
-REGISTER
+## REGISTER
 ![2](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_2-login.pug.pn.png)
 
-LOGIN
+## LOGIN
 ![3](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_3-login.pug.png)
 
-MY ACOUNT
+## MY ACOUNT
 ![4](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_4-myAcount.pug.png)
 
-ADD EVENT
+## ADD EVENT
 ![5](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/process_5-addEvent.pug.png)
 
-ERROR
+## ERROR
 ![6](https://github.com/LITULANDIO/solution-sesion-users/blob/master/assets/error.png)
