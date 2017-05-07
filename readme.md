@@ -61,6 +61,13 @@ Para iniciar la aplicación:
 npm run dev
 ```
 
+Puedes entrar con el usuario siguiente:
+Para poder eliminar el evento y poder insertar un evento desde cualquier otro usuario
+
+```
+usuario: litus
+password: litus
+```
 Problemas:
 
 Al iniciar sessión con cualquier usuario accedemos a la cuenta donde se pueden crear anuncios. Al querer crear un anuncio parece ser que desactiva la sesión.... pero si no existe ningun registro en la bd nos hará la insercción correctamente. Pero en consola nos muestra un error en la página fullEvent.pug
